@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+body {
+    background-color: black;
+    /* color: #0ef; */
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 85%;
+    display: flex;
+    margin-left: 100px;
+}
+
+.icon {
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px #0ef;
+}
+
+
+nav ul {
+    margin-top: 6px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 2vh;
+    transition: all 1s ease-in-out;
+}
+
+nav ul li:hover {
+    transform: scale(1.2);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 1000;
+    color: white;
+    font-size: 13px;
+    transition: 1s;
+}
+
+
+nav ul li a:hover,
+.active {
+    color: #0ef;
+}
+
+.button {
+    height: 35px;
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    margin-left: auto;
+    background-color: #0ef;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0px 25px;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: 0 0 20px #0ef;
+    transform: scale(1.2);
+}
+
+
+.image{
+    position: absolute;
+    top:25%;
+    left:2%;
+    width: 400px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 50px #0ef;
+}
+.text{
+    font-size: 25px;
+    width:50%;
+    margin-top: 10%;
+    margin-left: auto;
+    color:white;
+}
+
+.download{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0ef;
+    border: 2px solid #0ef;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 2px;
+    transition: 1s;
+    
+}
+
+.download:hover{
+    box-shadow: 0px 0px 20px #0ef;
+}
+    
